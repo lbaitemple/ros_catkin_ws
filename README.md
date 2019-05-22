@@ -11,6 +11,11 @@ edit
 # CONF_SWAPSIZE=100
 CONF_SWAPSIZE=1024
 ```
+Now we need to activate new swap space:
+```
+sudo /etc/init.d/dphys-swapfile stop
+sudo /etc/init.d/dphys-swapfile start
+```
 
 ```
 sudo apt-get install dirmngr
