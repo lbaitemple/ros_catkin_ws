@@ -2,7 +2,7 @@
 This is the source for ros on raspbian, use commands from https://neverbenever.wordpress.com/2017/12/20/install-ros-and-opencv-in-raspberry-piraspbian-stretch/
 
 ```
-sudo /etc/dphys–swapfile
+sudo nano /etc/dphys–swapfile
 ```
 edit 
 ```
